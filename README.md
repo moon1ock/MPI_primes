@@ -51,7 +51,7 @@ $ make clean
 ```bash
 $ mpiexec -n <P> genprimes <N>
 ```
-Where `<P>` stands for the number of MPI processes and `<N>` is the _upper bound_ on the prime range.
+Where `<P>` stands for the _number of MPI processes_ and `<N>` is the _upper bound_ on the prime range.
 
 
 # Efficiency
@@ -65,8 +65,9 @@ Where `<P>` stands for the number of MPI processes and `<N>` is the _upper bound
 | **100** 	| 3.721s 	| 3.766s 	| 3.703s 	| 3.678s 	| 4.072s  	|  42.161s 	|
 
 > the numbers are averaged over 10 consecutive runs of the program.
+> Note: **100** processes perform worse due to the fact that for `N < 1B` the communication between the processes is more expensive than the computation. 
 
-These measurements we taken on a `Four AMD Opteron 6272 (2.1 GHz) (64 cores)`, with `256GB RAM` and `Cent OS 7` in a virtual environment with `4GB RAM` available.
+These measurements were taken on a `Four AMD Opteron 6272 (2.1 GHz) (64 cores)`, with `256GB RAM` and `Cent OS 7` in a virtual environment with `4GB RAM` available and `1 CPU` available.
 
 
 --------------------
