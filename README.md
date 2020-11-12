@@ -64,9 +64,12 @@ Where `<P>` stands for the number of MPI processes and `<N>` is the _upper bound
 |  **10** 	| 0.370s 	| 0.372s 	| 0.377s 	| 0.417s 	| 1.023s  	| 289.819s 	|
 | **100** 	| 3.721s 	| 3.766s 	| 3.703s 	| 3.678s 	| 4.072s  	|  42.161s 	|
 
+> the numbers are averaged over 10 consecutive runs of the program.
+
+These measurements we taken on `Four AMD Opteron 6272 (2.1 GHz) (64 cores)`, with `256GB RAM` and `Cent OS 7` in a virtual environment with `4GB RAM` available.
 
 
 --------------------
-Copyright 2020 Andriy Lunin.
+Copyright 2020 [Andrii Lunin](https://github.com/moon1ock).
 <br>
-Open source code available under MIT Licence.
+Open source code available under [MIT Licence](https://github.com/moon1ock).
