@@ -72,4 +72,4 @@ These measurements were taken on a `Four AMD Opteron 6272 (2.1 GHz) (64 cores)`,
 --------------------
 Copyright 2020 [Andrii Lunin](https://github.com/moon1ock).
 <br>
-Open source code available under [MIT Licence](https://github.com/moon1ock).
+Open source code available under [MIT Licence](https://github.com/moon1ock/MPI_primes/blob/main/LICENSE).
