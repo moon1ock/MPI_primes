@@ -66,7 +66,7 @@ Where `<P>` stands for the number of MPI processes and `<N>` is the _upper bound
 
 > the numbers are averaged over 10 consecutive runs of the program.
 
-These measurements we taken on `Four AMD Opteron 6272 (2.1 GHz) (64 cores)`, with `256GB RAM` and `Cent OS 7` in a virtual environment with `4GB RAM` available.
+These measurements we taken on a `Four AMD Opteron 6272 (2.1 GHz) (64 cores)`, with `256GB RAM` and `Cent OS 7` in a virtual environment with `4GB RAM` available.
 
 
 --------------------
