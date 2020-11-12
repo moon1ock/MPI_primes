@@ -66,8 +66,6 @@ Where `<P>` stands for the _number of MPI processes_ and `<N>` is the _upper bou
 
 > the numbers are averaged over 10 consecutive runs of the program.
 
-<br>
-
 > Note: **100** processes perform worse due to the fact that for `N < 1B` the communication between the processes is more expensive than the computation. 
 
 These measurements were taken on a `Four AMD Opteron 6272 (2.1 GHz) (64 cores)`, with `256GB RAM` and `Cent OS 7` in a virtual environment with `4GB RAM` available and `1 CPU` available.
